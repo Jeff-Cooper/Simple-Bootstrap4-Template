@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+    <style>
+        html,
+        body,
+        #intro{
+            height:100%;
+        }
+        #intro{
+            background:url("img/photography1.jpeg") no-repeat center center fixed;
+            background-size:cover;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Start Top Fixed Navigation -->
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+        <a href="#home" class="navbar-brand"><h1 class="display-4">PhotoTemplate101</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a href="#home" class="nav-item nav-link active"><p class="lead">Home</p><span class="sr-only">(current)</span></a>
+                <a href="#features" class="nav-item nav-link"><p class="lead">Features</p></a>
+                <a href="#work" class="nav-item nav-link"><p class="lead">Our Work</p></a>
+                <a href="#team" class="nav-item nav-link"><p class="lead">Our Team</p></a>
+                <a href="#contact" class="nav-item nav-link"><p class="lead">Contact</p></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Start Landing Screen Section -->
+    <section class="d-flex" id="intro" id="home">    <!-- Link Location -->
+        <div class="container-fluid d-flex align-items-center justify-content-center full-bg-img">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-1 text-white">Photography Template 101</h1>
+                    <hr class="hr-light">
+                    <p class="lead text-white">A Bootstrap 4 Template to Satisify All Your Photography Angst...I mean Needs...</p>
+                    <a href="#contact" class="btn btn-lg btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Features Section -->
+    <h2 class="display-4 p-3 m-3 text-center">Features</h2>
+    <div class="container text-muted" id="features">    <!-- Link Location -->
+        <div class="row">
+            <div class="col-md-6 col-lg-3 mb-5">
+                <div class="card">
+                    <i class="card-img-top mx-auto d-block fas fa-pencil-alt fa-5x"></i>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Clean Design</h4>
+                        <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-5">
+                <div class="card">
+                    <i class="card-img-top mx-auto d-block fas fa-mobile fa-5x"></i>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Responsive</h4>
+                        <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-5">
+                <div class="card">
+                    <i class="card-img-top mx-auto d-block fas fa-bold fa-5x"></i>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Simple Bootstrap4</h4>
+                        <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-5">
+                <div class="card">
+                    <i class="card-img-top mx-auto d-block fas fa-code fa-5x"></i>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Easy to Edit</h4>
+                        <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Our Work Section -->
+    <h2 class="display-4 text-center p-3 m-3">Our Work</h2>
+    <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+        <a href="#all" class="nav-link active" data-toggle="tab">All</a>
+        <a href="#landscape" class="nav-link" data-toggle="tab">Landscape</a>
+        <a href="#urban" class="nav-link" data-toggle="tab">Urban</a>
+        <a href="#human" class="nav-link" data-toggle="tab">Human</a>
+    </nav>
+    <div class="tab-content p-3 m-3" id="work">     <!-- Link Location -->
+        <div class="tab-pane active" id="all">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/landscape1.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/urban1.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/human1.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/landscape2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/urban2.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/human2.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/landscape3.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/urban3.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/human3.jpeg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="landscape">
+             <div class="row">
+                <div class="col-md-4">
+                    <img src="img/landscape1.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/landscape2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/landscape3.jpeg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="urban">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/urban1.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/urban2.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/urban3.jpeg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="human">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/human1.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/human2.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/human3.jpeg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Meet The Team Section -->
+    <div class="container" id="team">   <!-- Link Location -->
+        <h2 class="display-4 text-center p-3 m-3">Meet The Team</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/team1.jpeg" alt="" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Chadwick</h4>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veritatis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/team2.jpeg" alt="" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Clementine</h4>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, voluptas!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/team3.jpeg" alt="" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Montgomery</h4>
+                        <p class="card-text text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, facilis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Talk To Team Section -->
+    <h2 class="display-4 text-center p-3 m-3">Talk To The Team</h2>
+    <div class="embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146562.32045570764!2d-82.98601836199987!3d39.989859079869284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883889c1b990de71%3A0xe43266f8cfb1b533!2sColumbus%2C+OH!5e0!3m2!1sen!2sus!4v1522187601044" width="2100" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="container" id="contact">    <!--Link Location -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="display-4 text-center p-3 m-3">Contact Form</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="JohnDoe@unidentifiedmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">Message/Comment</label>
+                        <textarea class="form-control" id="textarea" rows="10" placeholder="Type Here"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2 class="display-4 text-center p-3 m-3">Contact Info</h2>
+                <div class="container">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Email: Photo101@graphymail.com</li>
+                        <li class="list-group-item">Phone: (555) 555-5555</li>
+                        <li class="list-group-item">Address: 9 East 24th St. Cumberland Mills, Montana 54321</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Footer Section -->
+    <div class="jumbotron jumbotron-fluid bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="lead text-center">&copy; Copyright Jeff Cooper 2018</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <i class="fab fa-google-plus-square fa-3x"></i>
+                    <i class="fab fa-facebook-square fa-3x"></i>
+                    <i class="fab fa-twitter-square fa-3x"></i>
+                    <i class="fab fa-github-square fa-3x"></i>
+                    <i class="fab fa-behance-square fa-3x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
